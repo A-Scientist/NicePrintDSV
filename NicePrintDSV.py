@@ -73,7 +73,7 @@ def CheckFile():
 	changeStatus(0)
 
 	#checks if filepath is correct
-	filePath = argv[3].get()
+	filePath = argv[4].get()
 	if os.path.exists(filePath) != True: 
 		changeStatus(1)
 	#elif if it does not have an extention:
